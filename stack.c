@@ -20,6 +20,10 @@ void push(stack_t *stack, void *data) {
 		printf(stderr, "memory failure\n");
 		exit(EXIT_FAILURE);
 	}
+
+	node->data = data;
+	node->next = stack->top;
+	stack->top = node;
 }
 
 void *top(stack_t *stack) {
