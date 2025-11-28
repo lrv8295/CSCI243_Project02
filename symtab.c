@@ -35,6 +35,11 @@ symbol_t *lookup_table (char *variable) {
 
 void build_table(char *filename) {}
 
-void dump_table(void){}
+void dump_table(void){
+	printf("SYMBOL TABLE\n");
+	for*symbol_t cur = symtab; cur; cur->next) {
+		printf("Name: %s, Value: %d\n", cur->var_name, cur->val);
+	}
+}
 
 void free_table(void) {}
