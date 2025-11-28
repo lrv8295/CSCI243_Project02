@@ -4,9 +4,25 @@
 
 #include "symtab.h"
 
-stais symbol_t *symtab = NULL
+static symbol_t *symtab = NULL
 
-symbol_t *create_symbol(char *name, int val) {}
+symbol_t *create_symbol(char *name, int val) {
+	symbol_t *s = malloc(sizeof(symbol_t));
+	if(!s) return NULL;
+
+	s->var_name = malloc(strlen(name) +1);
+	if(!s->var_name) {
+		free(s);
+		return NULL
+	}
+	strcpy(s->var_name,name);
+
+	s->val = val;
+	s->next = symtab;
+	symtab = s;
+
+	return s;
+}
 
 symbol_t *lookup_table (char *variable) {}
 
