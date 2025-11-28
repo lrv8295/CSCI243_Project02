@@ -42,4 +42,14 @@ void dump_table(void){
 	}
 }
 
-void free_table(void) {}
+void free_table(void) {
+	symbol_t *cur = symtab;
+
+	while(cur) {
+		symbol_t *next cur-> next;
+		free(cur->var_name);
+		free(cur);
+		cur = next;
+	}
+	symtab = NULL;
+}
