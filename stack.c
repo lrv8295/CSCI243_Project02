@@ -14,7 +14,13 @@ stack_t *make_stack(void) {
 	return stk;
 }
 
-void push(stack_t *stack, void *data) {}
+void push(stack_t *stack, void *data) {
+	stack_node_t *node = malloc(sizeof(size_node_t));
+	if (!(node)) {
+		printf(stderr, "memory failure\n");
+		exit(EXIT_FAILURE);
+	}
+}
 
 void *top(stack_t *stack) {
 	if(stack->top == NULL) {
