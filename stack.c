@@ -20,6 +20,8 @@ void *top(stack_t *stack) {}
 
 void pop(stack_t *stack) {}
 
-int empty_stack(stack_t *stack) {}
+int empty_stack(stack_t *stack) {
+	return (stack-> top == NULL);
+}
 
 void free_stack(stack_t *stack) {}
