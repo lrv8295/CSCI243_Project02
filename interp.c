@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
 	char line[MAX_LINE + 1];
 
 	if (argc > 2) {
-		printf(stderr, "%s [sym-table]\n, argv[0]);
+		printf(stderr, "%s [sym-table]\n, argv[0]");
 		return EXIT_FAILURE;
 	}
 
