@@ -1,3 +1,15 @@
+commit 1d7079266ca623fb04e41ad45ae19e6083da6347
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Thu Nov 27 23:55:50 2025 -0500
+
+    set up
+
+commit 676e583c667dca1fd653c48914e5455e3583a5a2
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Thu Nov 27 23:48:43 2025 -0500
+
+    fix for re
+
 commit 1ce669fb5167fea793b318082acbb4d1651a2ac3
 Author: Lucia Rae Vazquez <lrv8295@rit.edu>
 Date:   Thu Nov 27 23:45:15 2025 -0500
