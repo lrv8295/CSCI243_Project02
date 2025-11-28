@@ -18,7 +18,16 @@ void push(stack_t *stack, void *data) {}
 
 void *top(stack_t *stack) {}
 
-void pop(stack_t *stack) {}
+void pop(stack_t *stack) {
+	if(stack->top == NULL) {
+		printf(stderr, "Stack error\n");
+		exit(EXIT_FAILURE);
+	}
+
+	stack_node_t *old = stack->top;
+	stack->top = old->next;
+	free(old);
+}
 
 int empty_stack(stack_t *stack) {
 	return (stack-> top == NULL);
