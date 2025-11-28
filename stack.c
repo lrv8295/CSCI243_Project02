@@ -13,3 +13,13 @@ stack_t *make_stack(void) {
 	stk->top = NULL;
 	return stk;
 }
+
+void push(stack_t *stack, void *data) {}
+
+void *top(stack_t *stack) {}
+
+void pop(stack_t *stack) {}
+
+int empty_stack(stack_t *stack) {}
+
+void free_stack(stack_t *stack) {}
