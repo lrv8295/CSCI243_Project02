@@ -16,7 +16,13 @@ stack_t *make_stack(void) {
 
 void push(stack_t *stack, void *data) {}
 
-void *top(stack_t *stack) {}
+void *top(stack_t *stack) {
+	if(stack->top == NULL) {
+		printf(stderr, "Stack error\n");
+		exit(EXIT_FAILURE);
+	}
+	return stack->top->data;
+}
 
 void pop(stack_t *stack) {
 	if(stack->top == NULL) {
