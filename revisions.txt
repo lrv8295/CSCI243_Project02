@@ -1,3 +1,123 @@
+commit 1ce669fb5167fea793b318082acbb4d1651a2ac3
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Thu Nov 27 23:45:15 2025 -0500
+
+    fix?
+
+commit 311d5d40ed7667167d2daad4799349d85b09ebe1
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Thu Nov 27 23:40:51 2025 -0500
+
+    fix
+
+commit 4c8ea952357dee2627a3e1dc959d37bbea72f280
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Thu Nov 27 23:38:59 2025 -0500
+
+    dump tables?
+
+commit 1f88a799ddcd44e8c5fb01f8ffaa522f9385c46e
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Thu Nov 27 23:34:54 2025 -0500
+
+    includes
+
+commit 48809f6ce287de3c5ae49deb62f5e122343aa9b8
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Thu Nov 27 23:30:46 2025 -0500
+
+    build table
+
+commit d4f59adb8a396e627a2f4551d64efde8b34dba8e
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Thu Nov 27 23:26:29 2025 -0500
+
+    free table
+
+commit bef1083eacf9203af502376d08684ac08176cbf4
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Thu Nov 27 23:24:21 2025 -0500
+
+    dump table
+
+commit 18b4e447806e65e22a1cfc124c2650de1c099105
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Thu Nov 27 23:22:04 2025 -0500
+
+    lookup table
+
+commit ae26426b51b4f698c870f9915fde69948a6945cb
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Thu Nov 27 23:19:44 2025 -0500
+
+    static and createasymbol
+
+commit 2e30b670288bce919e1017b64d163436cd10bf72
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Thu Nov 27 23:15:38 2025 -0500
+
+    start
+
+commit 8de74385e91bd2669ffa3e8070b7036c1d8d6ca3
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Thu Nov 27 22:41:04 2025 -0500
+
+    fix push
+
+commit 41fecbe7b49f471be93268e89a60c15b8aa78994
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Thu Nov 27 22:39:14 2025 -0500
+
+    push
+
+commit 029cf7ac421fa152e1988b0b1ef4ad8948662273
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Thu Nov 27 22:37:21 2025 -0500
+
+    top
+
+commit cd4119d53fc6fbf44e865b541bc4855c1c5829ad
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Thu Nov 27 22:35:34 2025 -0500
+
+    free
+
+commit 33defa50c838d9424d06fac58428012d7ac2453d
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Thu Nov 27 22:32:47 2025 -0500
+
+    pop
+
+commit 786c7c308186c5f29f2548763080c29ce1b3e681
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Thu Nov 27 22:28:51 2025 -0500
+
+    empty
+
+commit 6b2346c4f992ae954b8992bea34afb23183bf063
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Thu Nov 27 22:27:49 2025 -0500
+
+    set up
+
+commit 67a1d094cd2560ba121e6bf38dc37b51fb6dd8c8
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Thu Nov 27 22:25:19 2025 -0500
+
+    make_stack
+
+commit 3bf9f5d87c4234bd1090ad0e3957e2f85dd0fae5
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Thu Nov 27 22:22:12 2025 -0500
+
+    includes
+
+commit a1a1f038212dc6257d90caccd878d451cf1a913e
+Author: Lucia Rae Vazquez <lrv8295@rit.edu>
+Date:   Tue Nov 25 21:11:56 2025 -0500
+
+    revisions first
+
 commit 519065c8f16c727f88985edd623798b2ae1f3d5e
 Author: Lucia Rae Vazquez <lrv8295@rit.edu>
 Date:   Tue Nov 25 21:11:24 2025 -0500

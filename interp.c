@@ -10,12 +10,12 @@ int main(int argc, char *argv[]) {
 	char line[MAX_LINE + 1];
 
 	if (argc > 2) {
-		fprintf(stderr, "%s [sym-table]\n, argv[0]");
+		fprintf(stderr, "%s [sym-table]\n", argv[0]);
 		return EXIT_FAILURE;
 	}
 
 	if (argc ==2) {
-		build_table(argc[1]);
+		build_table(argv[1]);
 	} else {
 		build_table(NULL);
 	}
@@ -28,7 +28,7 @@ int main(int argc, char *argv[]) {
 		printf("> ");
 		fflush(stdout);
 
-		if(!(fgets(line, sizeof(line(, stdin)) {
+		if(!(fgets(line, sizeof(line), stdin){
 			break;
 		}
 
