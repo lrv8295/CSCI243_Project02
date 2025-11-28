@@ -33,7 +33,37 @@ symbol_t *lookup_table (char *variable) {
 	return NULL;
 }
 
-void build_table(char *filename) {}
+void build_table(char *filename) {
+	if (!filename) {
+		symtab = NULL;
+		return;
+	}
+
+	FILE *fp = fopen(filename, "r");
+	if (!fp) {
+		fprintf(stderr, "Error on table\n");
+		exit(EXIT_FAILURE);
+	}
+
+	char buffer[BUFLEN];
+	char type[64], name[64];
+	int val;
+
+	while (fgets(buffer, BUFLEN, fp)) {
+		if (sscanf(buffer, "%s %s %d", type, name, &val) == 3) {
+			create_symbol(name, val);
+		}
+	}
+
+	fclose(fp);
+}
+
+void dump_table(void) {
+    printf("SYMBOL TABLE:\n");
+    for (symbol_t *cur = symtab; cur; cur = cur->next) {
+        printf("\tName: %s, Value: %d\n", cur->var_name, cur->val);
+    }
+}
 
 void dump_table(void){
 	printf("SYMBOL TABLE\n");
