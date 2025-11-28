@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
 	char line[MAX_LINE + 1];
 
 	if (argc > 2) {
-		printf(stderr, "%s [sym-table]\n, argv[0]");
+		fprintf(stderr, "%s [sym-table]\n, argv[0]");
 		return EXIT_FAILURE;
 	}
 
@@ -23,5 +23,26 @@ int main(int argc, char *argv[]) {
 	printf("table");
 	dump_table();
 
+	while(1) {
+
+		printf("> ");
+		fflush(stdout);
+
+		if(!(fgets(line, sizeof(line(, stdin)) {
+			break;
+		}
+
+		line[strcspn(line, "\n")] = '\0';
+
+		if(line[0] != '\0') {
+			printf("%s\n", line);
+		}
+	}
+
+	printf("Table\n");
+	dump_table();
+
+	free_table();
+	return EXIT_SUCCESS;
 
 }
