@@ -33,4 +33,9 @@ int empty_stack(stack_t *stack) {
 	return (stack-> top == NULL);
 }
 
-void free_stack(stack_t *stack) {}
+void free_stack(stack_t *stack) {
+	while(!(empty_stack(stack)){
+		pop(stack);
+	}
+	free(stack);
+}
