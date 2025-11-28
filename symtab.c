@@ -24,7 +24,14 @@ symbol_t *create_symbol(char *name, int val) {
 	return s;
 }
 
-symbol_t *lookup_table (char *variable) {}
+symbol_t *lookup_table (char *variable) {
+	for(symbol_t *cur = symtab; cur; cur = cur->next) {
+		if(strcmp(cur->var_name, variable) == 0) {
+			return cur;
+		}
+	}
+	return NULL;
+}
 
 void build_table(char *filename) {}
 
